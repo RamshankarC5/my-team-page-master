@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const e=gsap.timeline();e.to(".role",{opacity:1,stagger:.5,duration:2.5,ease:"power3.out"}),e.fromTo(".picture-profile",{y:200,scale:1.2},{y:0,scale:1,opacity:1,stagger:.5,duration:2,ease:"power3.out"},"-=2"),e.fromTo(".name",{y:100},{y:0,opacity:1,stagger:.5,duration:3,ease:"power4.out"},"<1")});
