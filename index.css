@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
 .app {
   font-family: "PT Serif", serif;
@@ -9,7 +10,7 @@
 header {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-right: 2rem;
   padding-left: 2rem;
 }
@@ -18,14 +19,42 @@ header {
   font-weight: 700;
   font-size: 2rem;
   letter-spacing: -0.045em;
+  width: 18rem;
 }
 
+/*.main-title:after {
+  content: " ";
+  display: block;
+  border-radius: 5rem;
+  height: 0.2rem;
+  background-color: #505050;
+  animation-name: widthBig;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes widthBig {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}*/
+
 .second-title {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1.125rem;
 }
 
+.line-anim {
+  display: block;
+}
+
 .team-description {
+  font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
   width: 27.4375rem;
 }
