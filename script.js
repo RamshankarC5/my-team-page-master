@@ -11,9 +11,7 @@ const splitText = (text) => {
       div[i].style.position = "relative";
       div[i].style.display = "inline-block";
       div[i].style.opacity = 1;
-      div[i].style.marginRight = "0.5em";
-      div[i].style.transform = "translate3d(0, 0, 0)";
-      div[i].style.visibility = "visible";
+      div[i].style.marginRight = "0.5rem";
       div[i].style.overflow = "hidden";
       div[i].style.willChange = "transform";
       if (array[i]) {
