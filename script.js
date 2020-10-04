@@ -11,11 +11,11 @@ const splitText = (text) => {
       div[i].style.position = "relative";
       div[i].style.display = "inline-block";
       div[i].style.opacity = 1;
-      div[i].style.marginRight = "0.5rem";
+      div[i].style.whiteSpace = "pre";
       div[i].style.overflow = "hidden";
       div[i].style.willChange = "transform";
       if (array[i]) {
-        div[i].textContent = array[i];
+        div[i].textContent = array[i] + " ";
         text.appendChild(div[i]);
       }
     }
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const tl = gsap.timeline();
 
   for (const word of mainTitleSplit) {
-    tl.from(word, { width: 0, duration: 0.7, ease: "linear" });
+    tl.fromTo(word, 0.5, { width: 0 }, {width: "auto", ease: "linear"});
   }
 
   tl.from(".second-title", { opacity: 0, duration: 1.5 });
