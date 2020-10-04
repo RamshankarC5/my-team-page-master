@@ -36,7 +36,7 @@
 
 ## Overview
 
-![demo](https://github.com/FlorianMilcendeau/my-team-page-master/blob/dev/screenshot.gif)
+![demo](https://github.com/FlorianMilcendeau/my-team-page-master/blob/dev/extrait-myTeam.gif)
 
 ### Built With
 
